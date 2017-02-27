@@ -1,0 +1,512 @@
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .AndroidStudio2.1/
+        .AndroidStudio2.2/
+        .VirtualBox/
+        .android/
+        .appletviewer
+        .bash_history
+        .docker/
+        .eclipse/
+        .emulator_console_auth_token
+        .gradle/
+        .nuget/
+        .oracle_jre_usage/
+        .p2/
+        AndroidStudioProjects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        PICSSSS/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        VirtualBox VMs/
+        eclipse/
+        hotjava/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+taimo@Taimooras MINGW64 ~ (master)
+$ cd ./cdc
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ pwd
+/c/Users/taimo/cdc
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ ls -a
+./  ../  firstcode.txt
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ git add firstcode.txt
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../.AndroidStudio2.1/
+        ../.AndroidStudio2.2/
+        ../.VirtualBox/
+        ../.android/
+        ../.appletviewer
+        ../.bash_history
+        ../.docker/
+        ../.eclipse/
+        ../.emulator_console_auth_token
+        ../.gradle/
+        ../.nuget/
+        ../.oracle_jre_usage/
+        ../.p2/
+        ../AndroidStudioProjects/
+        ../AppData/
+        ../Contacts/
+        ../Desktop/
+        ../Documents/
+        ../Downloads/
+        ../Favorites/
+        ../IntelGraphicsProfiles/
+        ../Links/
+        ../Music/
+        ../NTUSER.DAT
+        ../NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+        ../NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+        ../NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+        ../OneDrive/
+        ../PICSSSS/
+        ../Pictures/
+        ../Saved Games/
+        ../Searches/
+        ../Tracing/
+        ../Videos/
+        ../VirtualBox VMs/
+        ../eclipse/
+        ../hotjava/
+        ../ntuser.dat.LOG1
+        ../ntuser.dat.LOG2
+        ../ntuser.ini
+        ../workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ pwd
+/c/Users/taimo/cdc
+
+taimo@Taimooras MINGW64 ~/cdc (master)
+$ cd ..
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git add firstcode.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   firstcode.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .AndroidStudio2.1/
+        .AndroidStudio2.2/
+        .VirtualBox/
+        .android/
+        .appletviewer
+        .bash_history
+        .docker/
+        .eclipse/
+        .emulator_console_auth_token
+        .gradle/
+        .nuget/
+        .oracle_jre_usage/
+        .p2/
+        AndroidStudioProjects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        PICSSSS/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        VirtualBox VMs/
+        eclipse/
+        hotjava/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git commit -m "First Version"
+[master 96bc2ab] First Version
+ Committer: Taimoor Nawaz <Taimoor Nawaz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 141 insertions(+)
+ create mode 100644 firstcode.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ echo "This is another .txt file" anotherfile.txt
+This is another .txt file anotherfile.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git add anotherfile.txt
+fatal: pathspec 'anotherfile.txt' did not match any files
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git add anotherfile.txt
+fatal: pathspec 'anotherfile.txt' did not match any files
+
+taimo@Taimooras MINGW64 ~ (master)
+$ echo "This is another .txt file" anotherfile.txt
+This is another .txt file anotherfile.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ ls
+ AndroidStudioProjects/
+ AppData/
+ cdc/
+ Contacts/
+ Desktop/
+ Documents/
+ Downloads/
+ eclipse/
+ Favorites/
+ firstcode.txt
+ hotjava/
+ IntelGraphicsProfiles/
+ Links/
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PICSSSS/
+ Pictures/
+'Saved Games'/
+ Searches/
+ Tracing/
+ Videos/
+'VirtualBox VMs'/
+ workspace/
+
+taimo@Taimooras MINGW64 ~ (master)
+$ ls -a
+ ./
+ ../
+ .android/
+ .AndroidStudio2.1/
+ .AndroidStudio2.2/
+ .appletviewer
+ .bash_history
+ .dnx/
+ .docker/
+ .eclipse/
+ .emulator_console_auth_token
+ .git/
+ .gradle/
+ .nuget/
+ .oracle_jre_usage/
+ .p2/
+ .VirtualBox/
+ AndroidStudioProjects/
+ AppData/
+ cdc/
+ Contacts/
+ Desktop/
+ Documents/
+ Downloads/
+ eclipse/
+ Favorites/
+ firstcode.txt
+ hotjava/
+ IntelGraphicsProfiles/
+ Links/
+ Music/
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ OneDrive/
+ PICSSSS/
+ Pictures/
+'Saved Games'/
+ Searches/
+ Tracing/
+ Videos/
+'VirtualBox VMs'/
+ workspace/
+
+taimo@Taimooras MINGW64 ~ (master)
+$ echo "This is another .txt file">> anotherfile.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git add anotherfile.txt
+warning: LF will be replaced by CRLF in anotherfile.txt.
+The file will have its original line endings in your working directory.
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   anotherfile.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .AndroidStudio2.1/
+        .AndroidStudio2.2/
+        .VirtualBox/
+        .android/
+        .appletviewer
+        .bash_history
+        .docker/
+        .eclipse/
+        .emulator_console_auth_token
+        .gradle/
+        .nuget/
+        .oracle_jre_usage/
+        .p2/
+        AndroidStudioProjects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        PICSSSS/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        VirtualBox VMs/
+        eclipse/
+        hotjava/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git commit -m "Second Version"
+[master 0519053] Second Version
+ Committer: Taimoor Nawaz <Taimoor Nawaz>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 anotherfile.txt
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .AndroidStudio2.1/
+        .AndroidStudio2.2/
+        .VirtualBox/
+        .android/
+        .appletviewer
+        .bash_history
+        .docker/
+        .eclipse/
+        .emulator_console_auth_token
+        .gradle/
+        .nuget/
+        .oracle_jre_usage/
+        .p2/
+        AndroidStudioProjects/
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TM.blf
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{a5e8c3a2-7d68-11e6-a4c3-85911000ff58}.TMContainer00000000000000000002.regtrans-ms
+        OneDrive/
+        PICSSSS/
+        Pictures/
+        Saved Games/
+        Searches/
+        Tracing/
+        Videos/
+        VirtualBox VMs/
+        eclipse/
+        hotjava/
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.ini
+        workspace/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git remote add -u cdc https://github.com/TaimoorNawaz/cdc.git
+error: unknown switch `u'
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git remote add -u myrepo https://github.com/TaimoorNawaz/cdc.git
+error: unknown switch `u'
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git remote add -m myrepo https://github.com/TaimoorNawaz/cdc.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git push -u myrepo master
+fatal: 'myrepo' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git push -u cdc master
+fatal: 'cdc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git remote add -m https://github.com/TaimoorNawaz/cdc.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+taimo@Taimooras MINGW64 ~ (master)
+$ git push -u cdc master
+fatal: 'cdc' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+taimo@Taimooras MINGW64 ~ (master)
+$
